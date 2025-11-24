@@ -40,5 +40,3 @@ const Stations = [
     category_en: "Others"
   }
 ];
-
-module.exports = { Stations };
