@@ -24,22 +24,21 @@ const Stations = [
     category_en: "Others"
   },
   {
-    id: "154",
+    id: "4",
     name: "مصطفي إسماعيل",
     radio_url: "https://server03.quran-uni.com:7132/;*.mp3",
     name_en: "MOSTAFA ESMAIL",
     category: "القراء الخمسة",
     category_en: "Others"
- },
+  },
   {
-    id: "154",
+    id: "5",
     name: "عبد الباسط عبد الصمد",
     radio_url: "https://server03.quran-uni.com:7000/;*.mp3",
     name_en: "ABDELBASE ABDELSAMAD",
     category: "القراء الخمسة",
     category_en: "Others"
-}
+  }
 ]
 
 module.exports = { Stations }
-
