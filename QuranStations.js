@@ -2,7 +2,7 @@ const Stations = [
   {
     id: "1",
     name: "الحصري",
-    radio_url: "https://server03.quran-uni.com:7007/;",
+    radio_url: "https://server03.quran-uni.com:7007",
     name_en: "Sahaba Stories",
     category: "منوعات",
     category_en: "Others"
@@ -50,5 +50,6 @@ const Stations = [
   ]
 
 module.exports = { Stations }
+
 
 
