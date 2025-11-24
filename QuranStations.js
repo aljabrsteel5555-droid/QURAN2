@@ -1,13 +1,36 @@
-/*  QuranStations.js – قائمة إذاعات القرآن الكريم للمشايخ
- *  جاهز للرفع على GitHub أو الاستخدام مباشرة
- */
-
 const Stations = [
-  { id: "1", name: "الحصري", radio_url: "https://server03.quran-uni.com:7007/;*.mp3", name_en: "Al-Husary", category: "قرآن كريم", category_en: "Quran" },
-  { id: "2", name: "المنشاوي", radio_url: "https://server03.quran-uni.com:7036/;*.mp3", name_en: "Al-Minshawi", category: "قرآن كريم", category_en: "Quran" },
-  { id: "3", name: "البنا", radio_url: "https://server03.quran-uni.com:7010/;*.mp3", name_en: "Al-Banna", category: "قرآن كريم", category_en: "Quran" },
-  { id: "4", name: "مصطفى إسماعيل", radio_url: "https://server03.quran-uni.com:7132/;*.mp3", name_en: "Mustafa Ismail", category: "قرآن كريم", category_en: "Quran" },
-  { id: "5", name: "عبد الباسط", radio_url: "https://server03.quran-uni.com:7000/;*.mp3", name_en: "Abdel Baset", category: "قرآن كريم", category_en: "Quran" }
-];
+  {
+    id: "1",
+    name: "الحصري",
+    radio_url: "https://server03.quran-uni.com:7007/;*.mp3",
+    name_en: "ELHOSARY",
+    category: "منوعات",
+    category_en: "Others"
+  },
+  {
+    id: "2",
+    name: "تراتيل قصيرة متميزة",
+    radio_url: "https://qurango.net/radio/tarateel",
+    name_en: "Amazing short Recitations",
+    category: "منوعات",
+    category_en: "Others"
+  },
+  {
+    id: "3",
+    name: "إذاعة آيات السكينة",
+    radio_url: "https://qurango.net/radio/sakeenah",
+    name_en: "Calm Recitations",
+    category: "منوعات",
+    category_en: "Others"
+  },
+  {
+    id: "154",
+    name: "إذاعة القرآن الكريم من القاهرة",
+    radio_url: "https://stream.radiojar.com/8s5u5tpdtwzuv",
+    name_en: "Quran Radio  Cairo",
+    category: "منوعات",
+    category_en: "Others"
+}
+]
 
-if (typeof module !== "undefined") { module.exports = Stations; }
+module.exports = { Stations }
