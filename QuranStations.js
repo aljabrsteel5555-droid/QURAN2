@@ -1,8 +1,8 @@
 const Stations = [
   {
     id: "1",
-    name: "إذاعة صور من حياة الصحابة رضوان الله عليهم",
-    radio_url: "https://qurango.net/radio/sahabah",
+    name: "الحصري",
+    radio_url: "https://server03.quran-uni.com:7007/;*.mp3",
     name_en: "Sahaba Stories",
     category: "منوعات",
     category_en: "Others"
@@ -50,3 +50,4 @@ const Stations = [
   ]
 
 module.exports = { Stations }
+
