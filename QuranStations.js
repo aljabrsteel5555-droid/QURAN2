@@ -41,6 +41,5 @@ const Stations = [
   }
   ]
 
-module.exports = { Stations }
 
 
